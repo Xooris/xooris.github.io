@@ -1,0 +1,171 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+/* LOGO */
+
+header.header img {
+    width: 150px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+body {
+    margin: 0 auto
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+/* BACKGROUND */
+
+section.top-page {
+    background: url("../media/background2.png");
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* Menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px
+}
+
+nav.nav li {
+    color: white;
+}
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+/* BOUTON SCROLL DOWN */
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+/* TITLE */
+
+.big-title {
+    color: white;
+    font-size: 80px;
+}
+
+/* PRESENTATION */
+
+.moi {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.moi-pjsy {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-detail {
+    font-style: italic;
+    font-weight: 500;
+    width: 200px;
+    text-align: center;
+}
+
+/* SECTION MA CONFIG */
+
+.section-title {
+    font-size: 50px;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #04446c;
+    width: 55px;
+    height: 7px;
+    bottom: 0;
+}
+
+.ma-config {
+    
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+/* BOITES */
+
+.grand-boite {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 850px;
+    margin-top: 70px;
+}
+
+.boite {
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    padding-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    box-shadow: 1px 1px 3px rgb(100, 100, 100);
+    flex-direction: column;
+    margin-bottom: 45px;
+    
+}
+
+/* CONTENU BOITE */
+
+.amazon-logo {
+    width: 45%;
+    position: relative;
+    z-index: 1;
+}
+
+.g402 {
+    width: 50px;
+    padding: 25px;
+    margin: auto;
+}
+
+.drakkar {
+    width: 100px;
+    padding: 25px;
+    margin: auto;
+}
+
+.viewsonic {
+    width: 120px;
+    padding: 25px;
+    margin: auto;
+}
+
+.text-boite {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
