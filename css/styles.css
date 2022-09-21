@@ -1,6 +1,8 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
 
+html{scroll-behavior:smooth}
+
 * {
     font-family: 'Montserrat';
 }
@@ -41,8 +43,9 @@ nav.nav {
     margin-left: 30px
 }
 
-nav.nav li {
+a {
     color: white;
+    display: inline-block;
 }
 
 .landing-page {
@@ -103,7 +106,15 @@ nav.nav li {
     bottom: 0;
 }
 
-.ma-config {
+.mon-setup {
+    
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+/* SECTION MES RESEAUX */
+
+.mes-reseaux {
     
     justify-content: space-between;
     margin-bottom: 80px;
@@ -168,4 +179,19 @@ nav.nav li {
     width: 50%;
     margin: auto;
     text-align: center;
+}
+
+.twitch {
+    width: 75%;
+    margin: auto;
+}
+
+.youtube {
+    width: 70%;
+    margin: auto;
+}
+
+.twitter {
+    width: 70%;
+    margin: auto;
 }
